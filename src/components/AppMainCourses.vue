@@ -68,7 +68,7 @@ export default {
                     <h4>Featured Online Courses</h4>
                 </div>
             </div>
-            <div class="row">
+            <div class="row py-5">
                 <template v-for="course in courses">
                     <div class="col-6 py-3">
                         <div class="card border-0 bg_grey1">
@@ -89,8 +89,10 @@ export default {
                         </div>
                     </div>
                 </template>
+            </div>
+            <div class="row">
                 <div class="col-12 text-center">
-                    <button type="button" class="btn btn-success">Download free guide</button>
+                    <button type="button" class="btn btn-success">View all courses -></button>
                 </div>
             </div>
         </div>
