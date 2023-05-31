@@ -65,7 +65,7 @@ export default {
             <div class="row">
                 <div class="col-12 text-center">
                     <h6>STIMULATED TO LEARN?</h6>
-                    <h4>Featured Online Courses</h4>
+                    <h4 class="colorTitles">Featured Online Courses</h4>
                 </div>
             </div>
             <div class="row py-5">
@@ -79,7 +79,7 @@ export default {
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ course.price }}</h5>
-                                        <p class="card-text">{{ course.description }}</p>
+                                        <p class="card-text colorTitles">{{ course.description }}</p>
                                         <p class="card-text"><small class="text-muted">
                                                 {{ course.time }} {{ course.students }}
                                             </small></p>

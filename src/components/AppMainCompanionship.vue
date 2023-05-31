@@ -13,8 +13,9 @@
                     </div>
                 </div>
                 <div class="col-5 d-flex flex-column p-5">
-                    <h6>GET STARTED EFFORTLESSLY</h6>
-                    <h4>Enjoy Our Companionship</h4>
+                    <h6>GET STARTED <span class="colorTitles">EFFORTLESSLY</span>
+                    </h6>
+                    <h4 class="colorTitles">Enjoy Our Companionship</h4>
                     <p>Sneek peek into what has in store for you on our online teaching and mentoring portal. Seek for some
                         hidden hints of early-bird rewards as well</p>
                     <a href="">Download free guidebook -></a>

@@ -34,7 +34,7 @@ export default {
             <div class="row">
                 <div class="col-12 text-center">
                     <h6>MAXCOACH AVAILABLE COURSES</h6>
-                    <h4>Acces Smart Tutoring Program For Benefits.</h4>
+                    <h4 class="colorTitles">Acces Smart Tutoring Program For Benefits.</h4>
                 </div>
             </div>
             <div class="row pt-5">
@@ -43,7 +43,7 @@ export default {
                         <div class="card border-0">
                             <img :src="benefit.pic" class="card-img-top hCard" alt="">
                             <div class="card-body">
-                                <h5 class="card-title">{{ benefit.title }}</h5>
+                                <h5 class="card-title colorTitles">{{ benefit.title }}</h5>
                                 <p class="card-text">{{ benefit.description }}</p>
                                 <a href="">{{ benefit.link }}</a>
                             </div>

@@ -15,7 +15,7 @@ export default {
     <div class="container py-5">
         <div class="row align-items-center">
             <div class="col-5 d-flex flex-column">
-                <h1>Distant learning for further expansion</h1>
+                <h1 class="colorTitles">Distant learning for further expansion</h1>
                 <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the
                     process.</p>
                 <button type="button" class="btn btn-success">Download free guide</button>

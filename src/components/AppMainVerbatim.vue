@@ -109,11 +109,10 @@ export default {
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 
-<style>
+<style scoped>
 .bg_grey1 {
     background-color: #f5f7fa;
 }
