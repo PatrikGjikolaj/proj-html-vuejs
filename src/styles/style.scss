@@ -1,0 +1,35 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.colorTitles {
+    text-decoration: none;
+    color: #3a3a6a;
+    font-weight: 600;
+}
+.colorText {
+    text-decoration: none;
+    color: #8c89a2;
+}
+.colorVipText {
+    text-decoration: none;
+    color: #20ad96;
+}
+
+.btnCustom {
+    font-weight: 600;
+    color: white;
+    background-color: #20ad96;
+    border-color: #20ad96;
+}
+
+.btnCustom:hover {
+    color: white;
+    background-color: #3f3a64;
+    border-color: #3f3a64;
+}
+
+.btnCustom:active {
+    color: #20ad96;
+    background-color: #3f3a64;
+    border-color: #3f3a64;
+}

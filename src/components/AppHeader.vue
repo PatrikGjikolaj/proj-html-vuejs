@@ -83,7 +83,7 @@ export default {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 a {
   text-decoration: none;
 }

@@ -64,7 +64,7 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h6>STIMULATED TO LEARN?</h6>
+                    <h6 class="colorText">STIMULATED TO LEARN?</h6>
                     <h4 class="colorTitles">Featured Online Courses</h4>
                 </div>
             </div>
@@ -78,9 +78,9 @@ export default {
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">{{ course.price }}</h5>
+                                        <h5 class="card-title colorVipText fw-bold">{{ course.price }}</h5>
                                         <p class="card-text colorTitles">{{ course.description }}</p>
-                                        <p class="card-text"><small class="text-muted">
+                                        <p class="card-text colorText"><small class="text-muted">
                                                 {{ course.time }} {{ course.students }}
                                             </small></p>
                                     </div>
@@ -92,14 +92,14 @@ export default {
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <button type="button" class="btn btn-success">View all courses -></button>
+                    <button type="button" class="btnCustom rounded">View all courses -></button>
                 </div>
             </div>
         </div>
     </div>
 </template>
 
-<style scoped>
+<style  lang="scss" scoped>
 img {
     aspect-ratio: 1;
     object-fit: cover;

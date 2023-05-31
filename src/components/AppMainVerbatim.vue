@@ -1,9 +1,6 @@
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue';
 import { Navigation, Pagination, Autoplay, EffectCoverflow } from 'swiper';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import "swiper/css/effect-coverflow";
 
 export default {
     data() {
@@ -57,8 +54,8 @@ export default {
     <div class="container-fluid py-5 bg_grey1">
         <div class="row">
             <div class="col-12 text-center">
-                <h6>GREAT WORDS ABOUT MAXCOACH</h6>
-                <h4>Our top learners' verbatim</h4>
+                <h6 class="colorText">GREAT WORDS ABOUT MAXCOACH</h6>
+                <h3 class="colorTitles">Our <span class="colorVipText fw-light">top learners'</span> verbatim</h3>
             </div>
         </div>
         <div class="row py-5">
@@ -73,18 +70,19 @@ export default {
                     }" :modules="modules" class="mySwiper">
                     <template v-for="testimonial in testimonials">
                         <swiper-slide>
-                            <div class="row card border-0 p-2">
+                            <div class="row card border-0 p-3">
                                 <div class="list-group list-group-flush">
                                     <div class="col-12">
-                                        <h4>{{ testimonial.title }}</h4>
-                                        <p>{{ testimonial.description }}</p>
+                                        <h5 class="colorTitles">{{ testimonial.title }}</h5>
+                                        <p class="colorText">{{ testimonial.description }}</p>
                                     </div>
                                     <div class="list-group-item d-flex">
                                         <div class="col-2">
                                             <img :src="testimonial.pic" alt="" class="rounded-circle img-fluid">
                                         </div>
-                                        <div class="col-10">
-                                            <h5>{{ testimonial.name }}</h5>
+                                        <div class="col-10 p-3">
+                                            <h6 class="colorTitles">{{ testimonial.name }}</h6>
+                                            <small class="colorText">{{ testimonial.job }}</small>
                                         </div>
                                     </div>
                                 </div>
@@ -100,9 +98,11 @@ export default {
                     <img src="../assets/maxcoach-shape-01.png" alt="">
                 </div>
                 <div class="col-8 text-center">
-                    <h5>Start today for getting Online Certification</h5>
-                    <h3>You can be your own guiding star with our help!</h3>
-                    <button type="button" class="btn btn-success my-3 px-5">View all courses -></button>
+                    <h5 class="colorTitles">Start today for getting <span class="colorVipText fw-light">Online
+                            Certification</span>
+                    </h5>
+                    <h3 class="colorTitles">You can be your own guiding star with our help!</h3>
+                    <button type="button" class="btnCustom rounded my-3 px-5">View all courses -></button>
                 </div>
                 <div class="col-2 pt-5">
                     <img src="../assets/maxcoach-shape-02.png" alt="">
@@ -112,8 +112,12 @@ export default {
     </div>
 </template>
 
-<style scoped>
-.bg_grey1 {
-    background-color: #f5f7fa;
+<style  lang="scss" scoped>
+.bg_grey2 {
+    background-color: #f8f8f8;
+}
+
+.h100 {
+    height: 100%;
 }
 </style>

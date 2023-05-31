@@ -28,13 +28,13 @@ export default {
 <template>
     <div class="container-fluid bg_grey1 py-5">
         <div class="container py-5">
-            <div class="row gap-2">
-                <div class="col-4 py-4">
-                    <h6>ENJOYABLE INSIGHTS</h6>
-                    <h4>Most Viewed Best Blogs</h4>
-                    <ul class="py-4">
+            <div class="row">
+                <div class="col-6 py-4">
+                    <h6 class="colorText">ENJOYABLE INSIGHTS</h6>
+                    <h3 class="colorTitles">Most Viewed <span class="colorVipText fw-light">Best Blogs</span></h3>
+                    <ul class="py-3">
                         <template v-for="info in blogInfo">
-                            <li class="py-2">{{ info }}</li>
+                            <li class="py-2"><small class=" colorTitles">{{ info }}</small></li>
                         </template>
                     </ul>
                 </div>
@@ -42,10 +42,10 @@ export default {
                     <div class="col-3">
                         <div class="card border-0">
                             <img :src="blog.pic" class="card-img-top" alt="">
-                            <div class="card-body">
-                                <p>{{ blog.job }}</p>
-                                <h4>{{ blog.title }}</h4>
-                                <span>{{ blog.date }} {{ blog.views }}</span>
+                            <div class="card-body p-4">
+                                <p class="colorText">{{ blog.job }}</p>
+                                <h6 class="colorTitles">{{ blog.title }}</h6>
+                                <small class="colorText">{{ blog.date }} {{ blog.views }}</small>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ export default {
     </div>
 </template>
 
-<style scoped>
-.bg_grey1 {
-    background-color: #f5f7fa;
+<style lang="scss" scoped>
+.bg_grey3 {
+    background-color: #f5f1ed;
 }
 </style>

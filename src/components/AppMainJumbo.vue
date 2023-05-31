@@ -16,10 +16,12 @@ export default {
         <div class="row align-items-center">
             <div class="col-5 d-flex flex-column">
                 <h1 class="colorTitles">Distant learning for further expansion</h1>
-                <p>Learning is a life-long journey that in fact we never find the terminate stop. Stop searching, enjoy the
+                <p class="colorText">Learning is a life-long journey that in fact we never find the terminate stop. Stop
+                    searching, enjoy the
                     process.</p>
-                <button type="button" class="btn btn-success">Download free guide</button>
-                <span>Have questions? <a href="">Get Free Sample -.-></a></span>
+                <button type="button" class="btnCustom rounded">Download free guide</button>
+                <span class="colorText py-3">Have questions? <a href="" class="colorVipText fw-bold">Get Free Sample
+                        -.-></a></span>
             </div>
             <div class="col-7 imgBackJumbo text-center">
                 <img src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt=""
@@ -36,7 +38,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style  lang="scss" scoped>
 .imgJumbo {
     border-radius: 100%;
     background-image: url(../assets/maxcoach-shape-02.png);

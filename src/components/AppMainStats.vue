@@ -35,14 +35,14 @@ export default {
         <div class="container">
             <div class="row">
                 <template v-for="stat in stats">
-                    <div class="col-3 text-center border-end py-5">
-                        <h5>{{ stat.title }}</h5>
-                        <h3>{{ stat.stat }}</h3>
-                        <span>{{ stat.type }}</span>
+                    <div class="col-3 text-center border-end border-start p-5">
+                        <h5 class="colorTitles px-5">{{ stat.title }}</h5>
+                        <h2 class="colorVipText fw-bold">{{ stat.stat }}</h2>
+                        <small class="colorText fw-bold">{{ stat.type }}</small>
                     </div>
                 </template>
             </div>
         </div>
     </div>
 </template>
-<style scoped></style>
+<style  lang="scss" scoped></style>

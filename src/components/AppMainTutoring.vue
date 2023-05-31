@@ -33,8 +33,10 @@ export default {
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h6>MAXCOACH AVAILABLE COURSES</h6>
-                    <h4 class="colorTitles">Acces Smart Tutoring Program For Benefits.</h4>
+                    <h6 class="colorText">MAXCOACH AVAILABLE COURSES</h6>
+                    <h4 class="colorTitles">Acces <span class="colorVipText fw-light">Smart Tutoring</span> Program For
+                        Benefits.
+                    </h4>
                 </div>
             </div>
             <div class="row pt-5">
@@ -44,8 +46,8 @@ export default {
                             <img :src="benefit.pic" class="card-img-top hCard" alt="">
                             <div class="card-body">
                                 <h5 class="card-title colorTitles">{{ benefit.title }}</h5>
-                                <p class="card-text">{{ benefit.description }}</p>
-                                <a href="">{{ benefit.link }}</a>
+                                <p class="card-text colorText">{{ benefit.description }}</p>
+                                <a href="" class="colorText">{{ benefit.link }}</a>
                             </div>
                         </div>
                     </div>
@@ -55,7 +57,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style  lang="scss" scoped>
 .hCard {
     width: 50%;
     aspect-ratio: 1;
