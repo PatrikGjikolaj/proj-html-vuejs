@@ -71,7 +71,7 @@ export default {
             <div class="row py-5">
                 <template v-for="course in courses">
                     <div class="col-6 py-3 greenHov">
-                        <div class="card border-0 bg_grey1">
+                        <div class="card border-0 p-2 bg_grey1">
                             <div class="row">
                                 <div class="col-md-4">
                                     <img :src="course.photo" class="img-fluid rounded-circle" alt="">
@@ -107,8 +107,8 @@ img {
     object-fit: cover;
 }
 
-.greenHov:hover p,
-h5 {
+.greenHov :hover * {
     color: $ColorPrimary;
+    background-color: white;
 }
 </style>
