@@ -49,7 +49,8 @@ export default {
                 <p>© 2020 Maxcoach. All Rights Reserved</p>
             </div>
             <div class="col-1">
-                <a class=" footBtn border-0 p-3 colorText" href="navbar"><i class="fa-solid fa-arrow-up m-auto"></i></a>
+                <a class=" footBtn border-0 p-3 colorText" href="navbar"><i
+                        class="fa-solid fa-arrow-up m-auto text-light"></i></a>
             </div>
         </div>
     </div>

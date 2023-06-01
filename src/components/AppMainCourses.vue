@@ -107,8 +107,9 @@ img {
     object-fit: cover;
 }
 
-.greenHov :hover * {
+.greenHov :hover {
     color: $ColorPrimary;
     background-color: white;
+    cursor: pointer;
 }
 </style>
