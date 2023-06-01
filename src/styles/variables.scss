@@ -1,27 +1,3 @@
-// @import "../node_modules/bootstrap/scss/bootstrap";
-// @import "../../node_modules/bootstrap-vue/node_modules/bootstrap";
-
-
-
-
-// .btn-bd-primary {
-// font-weight: 600;
-// color: white;
-// background-color: violet;
-// border-color: violet;
-// border-radius: .5rem;
-// hover-color: var(--bs-white);
-// hover-bg: #{shade-color($bd-violet, 10%)};
-// hover-border-color: #{shade-color($bd-violet, 10%)};
-// focus-shadow-rgb: var(--bd-violet-rgb);
-// active-color: var(--bs-btn-hover-color);
-// active-bg: #{shade-color($bd-violet, 20%)};
-// active-border-color: #{shade-color($bd-violet, 20%)};
-// }
-
-// .btn-bd-primary :hover,
-// .btn-bd-primary :focus {
-// color: white;
-// background-color: violet 10%;
-// border-color: violet 10%;
-// }
+$ColorPrimary: #ef6f31;
+$ColorSecondary: #f5f7fa;
+$ColorHover: #3f3a64;

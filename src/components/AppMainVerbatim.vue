@@ -61,7 +61,7 @@ export default {
         <div class="row py-5">
             <div class="col-12">
                 <swiper :slidesPerView="3" :spaceBetween="50" :pagination="true" :mousewheel="true" :effect="'coverflow'"
-                    :grabCursor="true" :centeredSlides="true" :coverflowEffect="{
+                    :grabCursor="true" :centeredSlides="true" :autoplay="{ delay: 2000, }" :coverflowEffect="{
                         rotate: 10,
                         stretch: 0,
                         depth: 100,
@@ -94,7 +94,8 @@ export default {
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-2 pt-5">
+                <div class="col-2 pt-5 rlt">
+                    <span class="cerchio"></span>
                     <img src="../assets/maxcoach-shape-01.png" alt="">
                 </div>
                 <div class="col-8 text-center">
@@ -119,5 +120,19 @@ export default {
 
 .h100 {
     height: 100%;
+}
+
+.rlt {
+    position: relative;
+}
+
+.cerchio {
+    height: 40px;
+    width: 40px;
+    border: 5px solid #e6dcd2;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    bottom: 75%;
 }
 </style>

@@ -70,7 +70,7 @@ export default {
             </div>
             <div class="row py-5">
                 <template v-for="course in courses">
-                    <div class="col-6 py-3">
+                    <div class="col-6 py-3 greenHov">
                         <div class="card border-0 bg_grey1">
                             <div class="row">
                                 <div class="col-md-4">
@@ -92,7 +92,7 @@ export default {
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <button type="button" class="btnCustom rounded">View all courses -></button>
+                    <button type="button" class="btnCustom rounded">View all courses &rarr;</button>
                 </div>
             </div>
         </div>
@@ -100,12 +100,15 @@ export default {
 </template>
 
 <style  lang="scss" scoped>
+@use '../styles/variables.scss' as *;
+
 img {
     aspect-ratio: 1;
     object-fit: cover;
 }
 
-.bg_grey1 {
-    background-color: #f5f7fa;
+.greenHov:hover p,
+h5 {
+    color: $ColorPrimary;
 }
 </style>

@@ -32,9 +32,10 @@ export default {
                 <div class="col-6 py-4">
                     <h6 class="colorText">ENJOYABLE INSIGHTS</h6>
                     <h3 class="colorTitles">Most Viewed <span class="colorVipText fw-light">Best Blogs</span></h3>
-                    <ul class="py-3">
+                    <ul class="py-3 list-unstyled">
                         <template v-for="info in blogInfo">
-                            <li class="py-2"><small class=" colorTitles">{{ info }}</small></li>
+                            <li class="py-2 colorTitles">&rarr; <small class=" ps-2 fw-bold"> {{ info }}</small>
+                            </li>
                         </template>
                     </ul>
                 </div>

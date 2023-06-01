@@ -1,5 +1,12 @@
+@import './variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     font-family: 'Poppins', sans-serif;
+}
+.bg_grey1 {
+    background-color: $ColorSecondary;
 }
 .colorTitles {
     text-decoration: none;
@@ -12,24 +19,27 @@
 }
 .colorVipText {
     text-decoration: none;
-    color: #20ad96;
+    color: $ColorPrimary;
 }
 
 .btnCustom {
     font-weight: 600;
     color: white;
-    background-color: #20ad96;
-    border-color: #20ad96;
+    background-color: $ColorPrimary;
+    border-color: $ColorPrimary;
 }
 
 .btnCustom:hover {
     color: white;
-    background-color: #3f3a64;
-    border-color: #3f3a64;
+    background-color: $ColorHover;
+    border-color: $ColorHover;
 }
 
 .btnCustom:active {
-    color: #20ad96;
-    background-color: #3f3a64;
-    border-color: #3f3a64;
+    color: $ColorPrimary;
+    background-color: $ColorHover;
+    border-color: $ColorHover;
+}
+.greenHov:hover {
+    color: $ColorPrimary;
 }

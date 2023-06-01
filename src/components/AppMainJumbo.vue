@@ -19,13 +19,15 @@ export default {
                 <p class="colorText">Learning is a life-long journey that in fact we never find the terminate stop. Stop
                     searching, enjoy the
                     process.</p>
-                <button type="button" class="btnCustom rounded">Download free guide</button>
-                <span class="colorText py-3">Have questions? <a href="" class="colorVipText fw-bold">Get Free Sample
-                        -.-></a></span>
+                <span><button type="button" class="btnCustom rounded">Download free guide</button></span>
+                <span class="colorText py-3">Have questions? <a href="" class="colorVipText fw-bold greenHov">Get Free
+                        Sample
+                        &rarr;</a></span>
             </div>
-            <div class="col-7 imgBackJumbo text-center">
+            <div class="col-7 imgBackJumbo text-center rlt">
                 <img src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt=""
                     class="imgJumbo">
+                <span class="cerchio"></span>
             </div>
         </div>
         <div class="row align-items-center mt-5">
@@ -39,6 +41,8 @@ export default {
 </template>
 
 <style  lang="scss" scoped>
+@use '../styles/variables.scss' as *;
+
 .imgJumbo {
     border-radius: 100%;
     background-image: url(../assets/maxcoach-shape-02.png);
@@ -46,8 +50,26 @@ export default {
 }
 
 .imgBackJumbo {
-    background-image: url(../assets/maxcoach-shape-02.png), url(../assets/maxcoach-shape-07-100x100.png), url(../assets/maxcoach-shape-08.png);
-    background-position: 100% 20%, 70% 100%, 10% 50%;
+    background-image: url(../assets/maxcoach-shape-02.png), url(../assets/maxcoach-shape-07-100x100.png), url(../assets/maxcoach-shape-08.png), url(../assets/maxcoach-shape-08.png);
+    background-position: 100% 20%, 70% 100%, 10% 30%, 10% 70%;
     background-repeat: no-repeat;
+}
+
+.rlt {
+    position: relative;
+}
+
+.cerchio {
+    height: 70px;
+    width: 70px;
+    border: 10px solid #ecc5ab;
+    border-radius: 50%;
+    position: absolute;
+    right: 79%;
+    bottom: 22%;
+}
+
+.greenHov:hover {
+    color: $ColorHover;
 }
 </style>

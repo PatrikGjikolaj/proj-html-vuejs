@@ -44,7 +44,7 @@ export default {
 <template>
   <div class="container-fluid border-bottom">
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light row">
+      <nav class="navbar navbar-expand-lg bg-light row border-0" id="navbar">
         <div class="col-2">
           <a class="navbar-brand" href=""><img src="../assets/dark-logo.png" alt="" class="img-fluid"></a>
         </div>
@@ -63,7 +63,7 @@ export default {
                   </a>
                   <ul class="dropdown-menu">
                     <template v-for="link in element.links">
-                      <li><a class="dropdown-item" href="">{{ link }}</a></li>
+                      <li><a class="dropdown-item greenHov" href="">{{ link }}</a></li>
                     </template>
                   </ul>
                 </li>
@@ -84,7 +84,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../styles/variables.scss' as *;
+
 a {
   text-decoration: none;
+}
+
+.greenHov:hover {
+  color: $ColorPrimary;
 }
 </style>
