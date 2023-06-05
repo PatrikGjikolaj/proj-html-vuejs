@@ -71,7 +71,7 @@ export default {
             <div class="row py-5">
                 <!-- Caricamento delle varie cards dei corsi -->
                 <template v-for="course in courses">
-                    <div class="col-6 py-3 greenHov">
+                    <div class="col-md-6 py-3 greenHov">
                         <div class="card border-0 p-2 bg_grey1">
                             <div class="row p-3 rounded">
                                 <div class="col-md-4">

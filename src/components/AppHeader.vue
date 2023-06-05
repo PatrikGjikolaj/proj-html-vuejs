@@ -54,10 +54,10 @@ export default {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0 d-flex flex-row flex-wrap p-1">
               <!-- Ciclo per caricare le voci di menù -->
               <template v-for="element in linksHeader">
-                <li class="nav-item dropdown d-md-flex">
+                <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     {{ element.name }}
@@ -72,7 +72,7 @@ export default {
               </template>
             </ul>
             <form role="search">
-              <div class="input-group">
+              <div class="input-group p-1">
                 <input type="text" class="form-control" placeholder="Search..." aria-label="Recipient's username"
                   aria-describedby="basic-addon2">
                 <a class="input-group-text" id="basic-addon2">&#x1F50D;</a>
