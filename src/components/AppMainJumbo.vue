@@ -10,9 +10,10 @@ export default {
 
 
 </script>
-
+<!-- Copertina iniziale della pagina statica con caricamento degli sponsor con ciclo for su un array -->
 <template>
     <div class="container py-5">
+        <!-- Creazione della grafica con immagine pricipale e vari elementi di sfondo -->
         <div class="row align-items-center">
             <div class="col-5 d-flex flex-column">
                 <h1 class="colorTitles">Distant learning for further expansion</h1>
@@ -31,6 +32,7 @@ export default {
             </div>
         </div>
         <div class="row align-items-center mt-5">
+            <!-- Ciclo for del caricamento immagini -->
             <template v-for="sponsor in sponsors">
                 <div class="col-2">
                     <img :src="sponsor" alt="" class="img-fluid">

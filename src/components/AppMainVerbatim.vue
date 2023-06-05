@@ -8,9 +8,11 @@ export default {
             testimonials: [
                 {
                     pic: "../src/assets/testimonial-avata-01.jpg",
-                    title: "Customize Preferences",
-                    description: "Learners are given the right to arrange and customize their study schedule and timetable based on preferences.",
-                    link: "Start here ->"
+                    name: "FLORENCE THEMES",
+                    title: "FLORENCE THEMES",
+                    job: "/Multimedia Admin",
+                    title: "It's a choice of quality for people with special needs",
+                    description: "I'm very strict person so I require everything to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys just got me",
                 },
                 {
                     pic: "../src/assets/testimonial-avata-02.jpg",
@@ -49,7 +51,7 @@ export default {
     }
 }
 </script>
-
+<!-- Sezione divisa in due per carosello ed iscrizone ai corsi -->
 <template>
     <div class="container-fluid py-5 bg_grey1">
         <div class="row">
@@ -58,8 +60,10 @@ export default {
                 <h3 class="colorTitles">Our <span class="colorVipText fw-light">top learners'</span> verbatim</h3>
             </div>
         </div>
+        <!-- Sezione con carosello caricato tramite ciclo for e libreria swiper demos -->
         <div class="row py-5">
             <div class="col-12">
+                <!-- Impostazione del carosello per dargli effetto e tipo di interazione -->
                 <swiper :slidesPerView="3" :spaceBetween="50" :pagination="true" :mousewheel="true" :effect="'coverflow'"
                     :grabCursor="true" :centeredSlides="true" :autoplay="{ delay: 2000, }" :coverflowEffect="{
                         rotate: 10,
@@ -92,6 +96,7 @@ export default {
                 </swiper>
             </div>
         </div>
+        <!-- Sezione dell'iscrizione ai corsi -->
         <div class="container">
             <div class="row">
                 <div class="col-2 pt-5 rlt">

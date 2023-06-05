@@ -1,11 +1,12 @@
 <script>
 
 </script>
-
+<!-- Sezione statica con divisa in due tra testo ed immagini -->
 <template>
     <div class="container-fluid py-5 imgBackJumbo bg_custom">
         <div class="container py-5">
             <div class="row align-items-center">
+                <!-- Immagini posizionate attraverso background e position absolute e relative -->
                 <div class="col-7 text-center">
                     <div class="posR rlt">
                         <img src="../assets/home-2-popup-video-poster.jpg" alt="" class="imgJumbo rounded">
@@ -19,6 +20,7 @@
                         </svg>
                     </div>
                 </div>
+                <!-- Parte testuale -->
                 <div class="col-5 d-flex flex-column p-5 gap-4">
                     <h6 class="colorText">GET STARTED <span class="colorTitles">EFFORTLESSLY</span>
                     </h6>

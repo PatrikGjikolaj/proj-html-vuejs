@@ -40,7 +40,7 @@ export default {
   },
 }
 </script>
-
+<!-- Header della pagina con navabar caricata con ciclo for -->
 <template>
   <div class="container-fluid border-bottom">
     <div class="container">
@@ -55,6 +55,7 @@ export default {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <!-- Ciclo per caricare le voci di menù -->
               <template v-for="element in linksHeader">
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
@@ -62,6 +63,7 @@ export default {
                     {{ element.name }}
                   </a>
                   <ul class="dropdown-menu">
+                    <!-- Ciclo per il caricamento delle varie voci di ogni elemento del menù -->
                     <template v-for="link in element.links">
                       <li><a class="dropdown-item greenHov" href="">{{ link }}</a></li>
                     </template>

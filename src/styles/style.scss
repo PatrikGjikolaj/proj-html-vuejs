@@ -33,13 +33,22 @@
     color: white;
     background-color: $ColorHover;
     border-color: $ColorHover;
+    cursor: pointer;
 }
 
 .btnCustom:active {
     color: $ColorPrimary;
     background-color: $ColorHover;
     border-color: $ColorHover;
+    cursor: pointer;
 }
-.greenHov:hover {
+.PrimaryHov:hover {
     color: $ColorPrimary;
+    cursor: pointer;
+}
+.PrimaryHov:active {
+    color: $ColorPrimary;
+    background-color: $ColorHover;
+    border-color: $ColorHover;
+    cursor: pointer;
 }

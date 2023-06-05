@@ -58,7 +58,7 @@ export default {
 }
 
 </script>
-
+<!-- Sezione dei corsi disponibili caricati tramite ciclo for su oggetto -->
 <template>
     <div class="container-fluid bg_grey1 py-5">
         <div class="container">
@@ -69,10 +69,11 @@ export default {
                 </div>
             </div>
             <div class="row py-5">
+                <!-- Caricamento delle varie cards dei corsi -->
                 <template v-for="course in courses">
                     <div class="col-6 py-3 greenHov">
                         <div class="card border-0 p-2 bg_grey1">
-                            <div class="row">
+                            <div class="row p-3 rounded">
                                 <div class="col-md-4">
                                     <img :src="course.photo" class="img-fluid rounded-circle" alt="">
                                 </div>

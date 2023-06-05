@@ -1,6 +1,8 @@
+<script>
 
+</script>
 
-
+<!-- Sezione iscrizione alla newsletter -->
 <template>
     <div class="container my-5">
         <div class="row">

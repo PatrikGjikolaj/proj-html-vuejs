@@ -21,7 +21,7 @@ export default {
     },
 }
 </script>
-
+<!-- App che contiene tutti gli elementio del main divisi per titolo -->
 <template>
     <AppMainJumbo />
     <AppMainCourses />

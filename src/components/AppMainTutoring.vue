@@ -27,7 +27,7 @@ export default {
     },
 }
 </script>
-
+<!-- Sezione tutoring caricato tramite ciclo for su oggetto -->
 <template>
     <div class="container-fluid bg_grey1 py-5">
         <div class="container">
@@ -40,6 +40,7 @@ export default {
                 </div>
             </div>
             <div class="row pt-5">
+                <!-- Caricametno delle cards disponibili -->
                 <template v-for="benefit in benefits">
                     <div class="col-lg-4 col-md-12">
                         <div class="card border-0">
@@ -47,7 +48,7 @@ export default {
                             <div class="card-body">
                                 <h5 class="card-title colorTitles">{{ benefit.title }}</h5>
                                 <p class="card-text colorText">{{ benefit.description }}</p>
-                                <a href="" class="colorText greenHov">{{ benefit.link }} &rarr;</a>
+                                <a href="" class="colorText PrimaryHov">{{ benefit.link }} &rarr;</a>
                             </div>
                         </div>
                     </div>

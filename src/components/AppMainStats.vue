@@ -29,7 +29,7 @@ export default {
     },
 }
 </script>
-
+<!-- Sezione delle statistiche con caricamento tramite ciclo for su oggetto -->
 <template>
     <div class="container-fluid">
         <div class="container">

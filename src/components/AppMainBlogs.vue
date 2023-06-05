@@ -24,11 +24,12 @@ export default {
     },
 }
 </script>
-
+<!-- Sezione con elenco puntato e cards -->
 <template>
     <div class="container-fluid bg_grey1 py-5">
         <div class="container py-5">
             <div class="row">
+                <!-- Lista caricata tramite ciclo for da un array -->
                 <div class="col-6 py-4">
                     <h6 class="colorText">ENJOYABLE INSIGHTS</h6>
                     <h3 class="colorTitles">Most Viewed <span class="colorVipText fw-light">Best Blogs</span></h3>
@@ -39,6 +40,7 @@ export default {
                         </template>
                     </ul>
                 </div>
+                <!-- Sezione delle cards caricate da ciclo for su oggetto -->
                 <template v-for="blog in blogs">
                     <div class="col-3">
                         <div class="card border-0">
