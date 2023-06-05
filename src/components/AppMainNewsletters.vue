@@ -6,10 +6,10 @@
 <template>
     <div class="container my-5">
         <div class="row">
-            <div class="col-3 pt-5 rlt">
+            <div class="col-md-3 pt-5 rlt d-none d-md-block">
                 <span class="cerchio"></span>
             </div>
-            <div class="col-6 text-center px-2">
+            <div class="col-md-6 text-center px-2">
                 <h3 class="colorTitles">Subscibe <span class="colorVipText fw-light">Newsletters</span></h3>
                 <h6 class="colorText px-5">Enter your email address to register to our newsletter subscriptions deliverd on
                     a regular basis!</h6>
@@ -19,7 +19,7 @@
                     <span class="input-group-btn btnCustom rounded-end p-2" id="basic-addon2">Subscribe</span>
                 </div>
             </div>
-            <div class="col-3 pt-5 text-end">
+            <div class="col-md-3 pt-5 text-end d-none d-md-block">
                 <img src="../assets/maxcoach-shape-02.png" alt="">
             </div>
         </div>

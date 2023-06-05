@@ -7,7 +7,7 @@
         <div class="container py-5">
             <div class="row align-items-center">
                 <!-- Immagini posizionate attraverso background e position absolute e relative -->
-                <div class="col-7 text-center">
+                <div class="col-md-7 text-center d-none d-md-block">
                     <div class="posR rlt">
                         <img src="../assets/home-2-popup-video-poster.jpg" alt="" class="imgJumbo rounded">
                         <img src="../assets/icon-youtube-play.png" alt="" class="posA">
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <!-- Parte testuale -->
-                <div class="col-5 d-flex flex-column p-5 gap-4">
+                <div class="col-md-5 d-flex flex-column p-5 gap-4">
                     <h6 class="colorText">GET STARTED <span class="colorTitles">EFFORTLESSLY</span>
                     </h6>
                     <h1 class="colorTitles">Enjoy Our <span class="colorVipText fw-light">Companionship</span></h1>
@@ -57,7 +57,7 @@
 
 .imgBackJumbo {
     background-image: url(../assets/maxcoach-shape-05-150x150.png), url(../assets/maxcoach-shape-07-100x100.png);
-    background-position: 5% 30%, 52% 95%;
+    background-position: 5% 35%, 52% 95%;
     background-repeat: no-repeat;
 }
 
@@ -68,7 +68,7 @@
 .svg {
     position: absolute;
     right: 80%;
-    bottom: 80%;
+    bottom: 70%;
     z-index: -1;
     fill: #e5c791;
 }

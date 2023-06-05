@@ -53,7 +53,7 @@ export default {
 </script>
 <!-- Sezione divisa in due per carosello ed iscrizone ai corsi -->
 <template>
-    <div class="container-fluid py-5 bg_grey1">
+    <div class="container-fluid py-5 bg_grey1 d-none d-md-block">
         <div class="row">
             <div class="col-12 text-center">
                 <h6 class="colorText">GREAT WORDS ABOUT MAXCOACH</h6>
@@ -99,18 +99,18 @@ export default {
         <!-- Sezione dell'iscrizione ai corsi -->
         <div class="container">
             <div class="row">
-                <div class="col-2 pt-5 rlt">
+                <div class="col-md-2 pt-5 rlt d-none d-md-block">
                     <span class="cerchio"></span>
                     <img src="../assets/maxcoach-shape-01.png" alt="">
                 </div>
-                <div class="col-8 text-center">
+                <div class="col-md-8 text-center">
                     <h5 class="colorTitles">Start today for getting <span class="colorVipText fw-light">Online
                             Certification</span>
                     </h5>
                     <h3 class="colorTitles">You can be your own guiding star with our help!</h3>
-                    <button type="button" class="btnCustom rounded my-3 px-5">View all courses -></button>
+                    <button type="button" class="btnCustom rounded my-3 px-5">View all courses &rarr;</button>
                 </div>
-                <div class="col-2 pt-5">
+                <div class="col-md-2 pt-5 d-none d-md-block">
                     <img src="../assets/maxcoach-shape-02.png" alt="">
                 </div>
             </div>

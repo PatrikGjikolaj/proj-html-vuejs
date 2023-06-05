@@ -15,7 +15,7 @@ export default {
         <div class="container">
             <div class="row">
                 <!-- Sezione statica dell'indirizzo -->
-                <div class="col-6">
+                <div class="col-md-6">
                     <h4>Address</h4>
                     <p class="colorText">382 NE 191st St # 87394 Miami, FL 33179-3899</p>
                     <p class="colorText">+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)</p>
@@ -47,10 +47,10 @@ export default {
             </div>
         </div>
         <div class="row p-3">
-            <div class="col-10 offset-1 text-center colorText abs">
+            <div class="col-md-10 offset-1 text-center colorText abs">
                 <p>© 2020 Maxcoach. All Rights Reserved</p>
             </div>
-            <div class="col-1">
+            <div class="col-md-1">
                 <a class=" footBtn border-0 p-3 colorText btnCustom" href="navbar"><i
                         class="fa-solid fa-arrow-up m-auto text-light"></i></a>
             </div>

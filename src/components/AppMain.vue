@@ -23,14 +23,28 @@ export default {
 </script>
 <!-- App che contiene tutti gli elementio del main divisi per titolo -->
 <template>
-    <AppMainJumbo />
-    <AppMainCourses />
-    <AppMainTutoring />
-    <AppMainCompanionship />
-    <AppMainVerbatim />
-    <AppMainStas />
-    <AppMainBlogs />
-    <AppMainNewsletters />
+    <div>
+        <span class="abs text-center colorText p-3 border rounded">
+            <i class="fa-solid fa-ruler-combined pb-3 PrimaryHov"></i>
+            <i class="fa-solid fa-life-ring pb-3 PrimaryHov"></i>
+            <i class="fa-solid fa-book pb-3 PrimaryHov"></i>
+            <i class="fa-solid fa-cart-shopping PrimaryHov"></i>
+        </span>
+        <AppMainJumbo />
+        <AppMainCourses />
+        <AppMainTutoring />
+        <AppMainCompanionship />
+        <AppMainVerbatim />
+        <AppMainStas />
+        <AppMainBlogs />
+        <AppMainNewsletters />
+    </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.abs {
+    position: fixed;
+    left: calc(100% - 45px);
+    top: 30%;
+}
+</style>

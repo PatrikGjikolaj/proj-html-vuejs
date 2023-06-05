@@ -6,8 +6,8 @@ export default {
             sponsors: ["../src/assets/client-logo-01.png", "../src/assets/client-logo-02.png", "../src/assets/client-logo-03.png", "../src/assets/client-logo-04.png", "../src/assets/client-logo-05.png", "../src/assets/client-logo-06.png"]
         }
     },
-}
 
+}
 
 </script>
 <!-- Copertina iniziale della pagina statica con caricamento degli sponsor con ciclo for su un array -->
@@ -15,7 +15,7 @@ export default {
     <div class="container py-5">
         <!-- Creazione della grafica con immagine pricipale e vari elementi di sfondo -->
         <div class="row align-items-center">
-            <div class="col-5 d-flex flex-column">
+            <div class="col-md-5 d-flex flex-column">
                 <h1 class="colorTitles">Distant learning for further expansion</h1>
                 <p class="colorText">Learning is a life-long journey that in fact we never find the terminate stop. Stop
                     searching, enjoy the
@@ -25,7 +25,7 @@ export default {
                         Sample
                         &rarr;</a></span>
             </div>
-            <div class="col-7 imgBackJumbo text-center rlt">
+            <div class="col-md-7 imgBackJumbo text-center rlt d-none d-md-block">
                 <img src="../assets/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg" alt=""
                     class="imgJumbo">
                 <span class="cerchio"></span>

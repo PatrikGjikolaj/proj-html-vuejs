@@ -44,7 +44,7 @@ export default {
 <template>
   <div class="container-fluid border-bottom">
     <div class="container">
-      <nav class="navbar navbar-expand-lg bg-light row border-0" id="navbar">
+      <nav class="navbar navbar-expand-lg row border-0" id="navbar">
         <div class="col-2">
           <a class="navbar-brand" href=""><img src="../assets/dark-logo.png" alt="" class="img-fluid"></a>
         </div>
@@ -57,7 +57,7 @@ export default {
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
               <!-- Ciclo per caricare le voci di menù -->
               <template v-for="element in linksHeader">
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown d-md-flex">
                   <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
                     {{ element.name }}
